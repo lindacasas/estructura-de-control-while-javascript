@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura de control while</title>
+
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class="title">ESTRUCTURA DE CONTROL: WHILE</h1>
+    <section class="general-container">
+        <article class="container" id="exercise1">
+            <h3 class="exercise-title">Múltiplos  de 5</h3>
+            <p class="container-data">
+                Introduce un número: 
+                <input type="number" id="ex1-input" placeholder="Ingrese un número">
+            </p>
+            <button class="btn btn-primary" type="button" onclick="exercise1()">Mostrar los múltiplos</button>
+            <p class="result" id="result-ex1"></p>
+        </article>
+
+        <article class="container" id="exercise2">
+            <h3 class="exercise-title">Lotería</h3>
+            <div class="container-inputs">
+                <p class="container-data">
+                    Ingrese un número entre el 1-50: 
+                    <input type="number" id="ex2-input1" placeholder="Ingrese un número">
+                </p>
+                <p class="container-data">
+                    Ingrese otro número entre el 1-50: 
+                    <input type="number" id="ex2-input2" placeholder="Ingrese un número">
+                </p>
+            </div>
+            <button class="btn btn-primary" type="button" onclick="exercise2()">Verificar</button>
+        </article>
+
+        <article class="container" id="exercise3">
+            <h3 class="exercise-title">Arreglo de números</h3>
+            <button class="btn btn-primary" type="button" onclick="exercise3()">Recolectar números</button>
+            <p class="result" id="result-ex3"></p>
+        </article>
+
+        <article class="container" id="exercise4">
+            <h3 class="exercise-title">Concatenación de palabras</h3>
+            <button class="btn btn-primary" type="button" onclick="exercise4()">Recolectar palabras</button>
+            <p class="result" id="result-ex4"></p>
+        </article>
+
+        <article class="container" id="exercise5">
+            <h3 class="exercise-title">Día de la semana</h3>
+            <button class="btn btn-primary" type="button" onclick="exercise5()">Ver mensaje personalizado </button>
+        </article>
+    </section>
+    
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+    <!-- JS -->
+    <script src="./main.js"></script>
+</body>
+</html>
